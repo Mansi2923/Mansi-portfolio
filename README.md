@@ -1,3 +1,22 @@
+# Manasi Sawant | Portfolio
+
+A modern, animated portfolio website built with React.
+
+**Live Demo:** [View Portfolio](https://your-vercel-url.vercel.app)
+
+## Features
+- Animated hero section
+- Responsive design
+- Projects, skills, experience, education
+- Contact form (Formspree)
+- Light/dark theme toggle
+
+## Tech Stack
+- React
+- Framer Motion
+- Formspree
+- CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
