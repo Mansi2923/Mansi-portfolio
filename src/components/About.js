@@ -59,7 +59,7 @@ const About = () => {
               <div className="profile-image-container">
                 <img src="/images/profile.jpg" alt="Manasi Sawant" className="profile-image" />
                 <a 
-                  href="/Manasi_Sawant_Resume.pdf" 
+                  href="/Manasi_Resume.pdf" 
                   download="Manasi_Sawant_Resume.pdf"
                   className="resume-button"
                 >
