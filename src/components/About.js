@@ -10,7 +10,6 @@ const About = () => {
       school: 'Syracuse University',
       location: 'Syracuse, NY',
       period: '2023 - 2025',
-      gpa: '3.0/4.0',
       coursework: 'Data Structures, Algorithms, Machine Learning, Computer Vision, Natural Language Processing'
     },
     {
@@ -18,7 +17,6 @@ const About = () => {
       school: 'University of Mumbai',
       location: 'Mumbai, India',
       period: '2019 - 2023',
-      gpa: '3.46/4.0',
       coursework: 'Object-Oriented Programming, Database Management, Web Development, Computer Networks'
     }
   ];
@@ -52,9 +50,9 @@ const About = () => {
                   </a>
                 </div>
                 <span className="code-comment">// My approach to development</span>
-                <p>I’m a recent Computer Science graduate from Syracuse University with a solid foundation in full-stack software development and a growing focus on iOS mobile applications. 
+                <p>I'm a recent Computer Science graduate from Syracuse University with a solid foundation in full-stack software development and a growing focus on iOS mobile applications. 
                    During my time at Boeing, I contributed to the development of scalable factory automation systems using .NET, C#, and SQL Server. 
-                   I worked closely with cross-functional teams to implement microservice based architectures and RESTful APIs, enhancing performance and modularity. Now, I’m channeling my passion into mobile development; especially within the iOS ecosystem building intuitive, user-centered applications using Swift and modern Apple technologies. I aim to bridge backend expertise with elegant mobile experiences that drive real-world impact.</p>
+                   I worked closely with cross-functional teams to implement microservice based architectures and RESTful APIs, enhancing performance and modularity. Now, I'm channeling my passion into mobile development; especially within the iOS ecosystem building intuitive, user-centered applications using Swift and modern Apple technologies. I aim to bridge backend expertise with elegant mobile experiences that drive real-world impact.</p>
               </div>
               <div className="profile-image-container">
                 <img src="/images/profile.jpg" alt="Manasi Sawant" className="profile-image" />
@@ -104,7 +102,6 @@ const About = () => {
                   </div>
                 </div>
                 <div className="education-details">
-                  <p className="gpa">GPA: {edu.gpa}</p>
                   <div className="coursework">
                     <span className="code-comment">// Relevant Coursework</span>
                     <p>{edu.coursework}</p>
@@ -114,7 +111,7 @@ const About = () => {
             ))}
           </div>
         </motion.div>
-    </section>
+      </section>
     </>
   );
 };
