@@ -57,7 +57,7 @@ const Home = () => {
         {/* Hero Circles Design */}
         <div className="hero-circles">
           <div className="hero-circle hero-circle-main">
-            <img src="/images/mansi.png" alt="Manasi Sawant" className="hero-profile-img" />
+          <img src="/images/Mansi.png" alt="Manasi Sawant" className="hero-profile-img" />
           </div>
           <motion.div
             className="hero-circle hero-circle-small1"
