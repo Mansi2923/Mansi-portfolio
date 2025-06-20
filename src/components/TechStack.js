@@ -9,7 +9,8 @@ import {
   SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, 
   SiNextdotjs, SiMongodb, SiPostgresql, SiMysql,
   SiSwift, SiFlutter, SiGitlab, SiVisualstudio, SiJest, SiCypress,
-  SiCplusplus, SiLinux, SiApachekafka, SiFirebase
+  SiCplusplus, SiLinux, SiApachekafka, SiFirebase, SiGo,
+  SiKubernetes, SiTerraform
 } from 'react-icons/si';
 import './TechStack.css';
 
@@ -32,6 +33,7 @@ const TechStack = () => {
       skills: [
         { name: "Java", icon: <FaJava /> },
         { name: "Python", icon: <FaPython /> },
+        { name: "GoLang", icon: <SiGo /> },
         { name: "C++", icon: <SiCplusplus /> },
         { name: "C#", icon: <FaMicrosoft /> },
         { name: "Node.js", icon: <FaNodeJs /> }
@@ -62,6 +64,8 @@ const TechStack = () => {
         { name: "Git", icon: <FaGitAlt /> },
         { name: "GitLab", icon: <SiGitlab /> },
         { name: "Docker", icon: <FaDocker /> },
+        { name: "Kubernetes", icon: <SiKubernetes /> },
+        { name: "Terraform", icon: <SiTerraform /> },
         { name: "Kafka", icon: <SiApachekafka /> },
         { name: "CI/CD", icon: <FaTools /> }
       ]

@@ -6,6 +6,17 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const projects = [
     {
+      title: "DeployWatch - CI/CD Deployment Tracker",
+      description: "A real-time dashboard for tracking application deployments across different environments with GitHub/GitLab webhook integration and Kubernetes-native deployment.",
+      image: "/images/Deploy.png",
+      technologies: ["React", "Redux", "Go", "Kubernetes", "Terraform", "REST API"],
+      keyFeatures: ["Real-time deployment tracking", "Multi-environment support", "Webhook integration", "K8s-native"],
+      date: "2024",
+      github: "https://github.com/Mansi2923/DeployWatcher",
+      demo: "https://deploywatch-demo.vercel.app",
+      status: "New",
+    },
+    {
       title: "Tech Doc Search Bot",
       description: "A full-stack documentation search and management platform that helps developers find and manage technical documentation efficiently.",
       image: "/images/TechBot.png",
@@ -50,7 +61,7 @@ const Projects = () => {
     {
       title: "Thrive",
       description: "A comprehensive personal development iOS app that helps users track and improve their lives through various wellness features.",
-      image: "/images/placeholder.png",
+      image: "/images/Thrive.png",
       technologies: ["SwiftUI", "Firebase", "CoreData", "MVVM"],
       keyFeatures: ["Planner", "Habit tracker", "Mood journal", "Cloud sync"],
       date: "2024",
