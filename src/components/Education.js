@@ -37,7 +37,7 @@ const Education = () => {
               <div className="school-name">University of Mumbai</div>
               <div className="location-period">
                 <span>📍 Mumbai, India</span>
-                <span>🗓️ 2019 - 2023</span>
+                <span>🗓️ 2018 - 2021</span>
               </div>
             </div>
             <div className="education-details">

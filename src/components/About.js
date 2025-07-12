@@ -16,7 +16,7 @@ const About = () => {
       degree: 'Bachelor of Engineering in Computer Science',
       school: 'University of Mumbai',
       location: 'Mumbai, India',
-      period: '2019 - 2023',
+      period: '2018 - 2021',
       coursework: 'Object-Oriented Programming, Database Management, Web Development, Computer Networks'
     }
   ];

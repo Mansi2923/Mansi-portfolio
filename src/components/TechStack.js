@@ -69,6 +69,13 @@ const TechStack = () => {
         { name: "Kafka", icon: <SiApachekafka /> },
         { name: "CI/CD", icon: <FaTools /> }
       ]
+    },
+    {
+      title: "AI Tools",
+      skills: [
+        { name: "Cursor", icon: <FaCode /> },
+        { name: "Lovable", icon: <FaTools /> }
+      ]
     }
   ];
 
